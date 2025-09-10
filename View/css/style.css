@@ -25,9 +25,11 @@
   justify-content: center;
   flex-direction: column;
   margin: 0;  
-  padding: 60px;
+  padding: 0 60px 0 60px;
   text-align: justify;
 }
+
+ 
 
 .button-wdt {
   width: 50%;
