@@ -6,56 +6,54 @@
 
 .login {
   margin-top: 4em; 
-  padding: 5em; color: #f1f1f1; 
-  font-family: 'Anonymous Pro',  
+  padding: 5em; 
+  color: #f1f1f1; 
+  font-family: 'Anonymous Pro';  
 }
 
 .container {
   display: flex;
   justify-content: center;
   flex-direction: column;
- 
-  
+  align-items: center;  
+  width: 100%;  
 }
 
+.centralize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;  
+}
 
- .centralize {
-    
-         
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 3px;
-        flex-direction: column;
-      
-    }
- 
 .button-wdt {
   width: 50%;
-  }
- 
+}
+
 nav {
+  display: flex;  
   align-items: center;
+  justify-content: center;  
   text-align: center;
   border: 1px solid rgba(0, 0, 0, 0.145);
- 
   width: 100%;
 }
-/* Animations */
 
+/* Animations */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 /* Cursor */
-.cursor{
-    position: relative;
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 30px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
+.cursor {
+  position: relative;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, .75);
+  font-size: 30px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);    
 }
 
 /* Animation */
@@ -70,26 +68,9 @@ nav {
   to { width: 11.0ch; } 
 }
 
-@keyframes blinkingCursor{
+@keyframes blinkingCursor {
   from { border-right-color: rgba(5, 0, 0, 0.75); }
   to { border-right-color: transparent; }
 }
 
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
 /* Global */
- 
