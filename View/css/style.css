@@ -66,7 +66,7 @@ nav {
 }
 @keyframes typewriter {
   from { width: 0; }
-  to { width: 7.8ch; }
+  to { width: 9.0ch; }
 }
 @keyframes blinkingCursor{
   from { border-right-color: rgba(5, 0, 0, 0.75); }
