@@ -27,6 +27,8 @@
         justify-content: center;
         margin: 0;
         flex-direction: column;
+        width: 80%;
+        max-width: 1024px;
      
     }
  
@@ -60,7 +62,7 @@ nav {
 /* Animation */
 .typewriter-animation {
   animation: 
-    typewriter 1s steps(50) 1s 1 normal both, 
+    typewriter 1s steps(80) 1s 1 normal both, 
     blinkingCursor 700ms steps(70) infinite normal;
 }
 @keyframes typewriter {
