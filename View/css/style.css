@@ -25,7 +25,8 @@
   justify-content: center;
   flex-direction: column;
   margin: 0;  
-  padding: 5px;
+  padding: 60px;
+  text-align: justify;
 }
 
 .button-wdt {
@@ -60,7 +61,7 @@ nav {
 /* Animation */
 .typewriter-animation {
   animation: 
-    typewriter 2s steps(11) 1s 1 normal both, 
+    typewriter 2s steps(11) 2s 2 normal both, 
     blinkingCursor 700ms steps(11) infinite normal;
 }
 
