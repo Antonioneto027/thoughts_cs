@@ -25,7 +25,7 @@
   justify-content: center;
   flex-direction: column;
   margin: 0;  
-  padding: 0 60px 0 60px;
+  padding: 0 80px 0 80px;
   text-align: justify;
 }
 
@@ -63,8 +63,8 @@ nav {
 /* Animation */
 .typewriter-animation {
   animation: 
-    typewriter 2s steps(11) 2s 2 normal both, 
-    blinkingCursor 700ms steps(11) infinite normal;
+    typewriter 0.75s steps(11) 1s 1 normal both, 
+    blinkingCursor 700ms steps(11) infinite normal
 }
 
 @keyframes typewriter {
