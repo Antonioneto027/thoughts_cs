@@ -25,10 +25,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin: 3px;
         flex-direction: column;
-        max-width: 1024px;
-     
+      
     }
  
 .button-wdt {
@@ -62,13 +61,13 @@ nav {
 /* Animation */
 .typewriter-animation {
   animation: 
-    typewriter 0.5s steps(12) 1s 1 normal both, 
-    blinkingCursor 700ms steps(12) infinite normal;
+    typewriter 1s steps(11) 1s 1 normal both, 
+    blinkingCursor 700ms steps(11) infinite normal;
 }
 
 @keyframes typewriter {
   from { width: 0; }
-  to { width: 12.0ch; } 
+  to { width: 11.0ch; } 
 }
 
 @keyframes blinkingCursor{
