@@ -63,7 +63,7 @@ nav {
 .typewriter-animation {
   animation: 
     typewriter 1s steps(80) 1s 1 normal both, 
-    blinkingCursor 700ms steps(70) infinite normal;
+    blinkingCursor 700ms steps(80) infinite normal;
 }
 @keyframes typewriter {
   from { width: 0; }
